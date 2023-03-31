@@ -91,7 +91,7 @@ if st.session_state['generated']:
 
 터미널에서 아래와 같이 입력하면 Streamlit 앱을 실행합니다.
 
-```
+```bash
 streamlit run blenderbot_app.py
 ```
 
@@ -113,7 +113,7 @@ streamlit run blenderbot_app.py
 
 Python 파일 chatgpt_app.py 을 생성하고 아래와 같이 작성합니다. openai.api_key는 자신의 OpenAI API Key를 입력합니다. (예: sk-xxxxxxxxxxxxxxxxxxxxx)
 
-```
+```python
 import openai
 import streamlit as st
 from streamlit_chat import message
@@ -160,7 +160,7 @@ if st.session_state['generated']:
 
 터미널에서 아래와 같이 입력하면 Streamlit 앱을 실행합니다.
 
-```
+```bash
 streamlit run chatgpt_app.py
 ```
 
